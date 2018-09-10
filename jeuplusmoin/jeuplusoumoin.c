@@ -12,7 +12,7 @@
 #include <stdlib.h>
 
 int main(void) {
-	 int nombreMystere = 0, nombreEntre = 0;
+	 int nombreMystere = 0, nombreEntre = 0, nombreCoups=0;
 
 	    const int MAX = 10, MIN = 1;
 
@@ -38,6 +38,7 @@ int main(void) {
 
 	        scanf("%d", &nombreEntre);
 
+	        nombreCoups++;
 
 	        // On compare le nombre entré avec le nombre mystère
 
@@ -54,7 +55,7 @@ int main(void) {
 
 	            printf ("Bravo, vous avez trouve le nombre mystere !!!\n\n");
 
-	    } while (nombreEntre != nombreMystere);
+	    } while (nombreCoups< 3 && nombreEntre != nombreMystere);
 
 
 
