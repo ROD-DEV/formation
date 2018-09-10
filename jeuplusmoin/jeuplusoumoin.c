@@ -6,15 +6,16 @@
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
  ============================================================================
+
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
-	 int nombreMystere = 0, nombreEntre = 0, nombreCoups=0;
+int main( void ) {
+  int nombreMystere = 0, nombreEntre = 0, nombreCoups=0;
 
-	    const int MAX = 10, MIN = 1;
+  const int MAX = 100, MIN = 1;
 
 
 	    // Génération du nombre aléatoire
