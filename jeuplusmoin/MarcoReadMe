@@ -1,1 +1,8 @@
 Why MarcoReadme??
+This a program in C "Guess the Random Number"
+It  will generate a random number and ask to user to guess it. 
+Here it will give 3/10 attempts to guess the number in [1,10]/[1,1000], on each attempt program will inform that entered number is less than or greater than the random generated number so that user can easily guess that particular number.
+added by li
+
+
+
